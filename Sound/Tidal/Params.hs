@@ -258,6 +258,7 @@ Using `unit "s"` means the playback speed will be adjusted so that the duration 
 (voice, voice_p)                 = pF "voice" (Just 0)
 -- | formant filter to make things sound like vowels, a pattern of either `a`, `e`, `i`, `o` or `u`. Use a rest (`~`) for no effect.
 (vowel, vowel_p)                 = pS "vowel" (Just "")
+(psrate, psrate_p)      = pF "psrate" (Just 1)
 
 -- MIDI-specific params
 
